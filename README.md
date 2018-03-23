@@ -68,7 +68,7 @@ não se encontra em nenhuma versão.
 
 -> git commit -m "mensagem"
 -> -m: é o parâmetro na qual informa que o commit terá uma mensagem.
--> -am: utilizado para arquivos que já foram versionados.
+-> -am: utilizado para adicionar todos os arquivos que já foram versionados.
 
 #Log
 
@@ -97,3 +97,45 @@ Exibe as alterações antes de serem versionadas.
 
 -> git diff
 -> git diff --name-only
+
+#Resetando e revertendo modificações
+
+- Checkout
+
+Remove as modificações do arquivo, deixando em seu estado original de acordo com a última versão
+
+-> git checkout nome_do_arquivo
+
+- Reset
+
+* HEAD
+
+Remove o arquivo do status de staged
+
+-> git reset HEAD nome_do_arquivo
+
+* Soft
+
+Remove o commit porém mantendo as alterações em staged.
+
+-> git reset --soft hash_do_commit
+
+* Mixed
+
+Remove o commit e muda o status dos arquivos para modified.
+
+-> git reset --mixed hash_do_commit
+
+* Hard
+
+Remove toda a referência do commit.
+
+-> git reset --hard hash_do_commit
+
+Observação: Evitar utilizar reset quando as alterações já estiverem sido publicadas no repositório remoto porque este comando reescreve o histórico dos commits.
+
+- Revert
+
+Apaga as alterações mas não remove o commit.
+
+-> git revert hash_do_commit
