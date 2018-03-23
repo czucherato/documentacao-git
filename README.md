@@ -69,3 +69,31 @@ não se encontra em nenhuma versão.
 -> git commit -m "mensagem"
 -> -m: é o parâmetro na qual informa que o commit terá uma mensagem.
 -> -am: utilizado para arquivos que já foram versionados.
+
+#Log
+
+É responsável por exibir o histórico dos commits.
+
+- Log
+
+Exibe o histórico de commits.
+
+-> git log
+-> git log --decorate
+-> git log --author="nome_do_usuario"
+-> git shorlog
+-> git shortlog -sn
+-> git log --graph
+
+- Show
+
+Exibe detalhes de um commit em específico.
+
+-> git show hash_do_commit
+
+- Diff
+
+Exibe as alterações antes de serem versionadas.
+
+-> git diff
+-> git diff --name-only
