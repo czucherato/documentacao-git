@@ -19,3 +19,27 @@ Está separada de acordo com os seguintes tópicos:
 - Publicando tags e branches no repositório remoto
 - Removendo tags e branches no repositório remoto
 - Links úteis
+
+#Configurações
+
+O Git salva as configurações em 3 lugares diferentes.
+
+-> na configuração do sistema
+-> na configuração do usuário
+-> e na configuração do projeto
+
+- Configuração do usuário
+
+-> username: git config --global user.name "nome_do_usuario"
+-> email: git config --global user.email "email_do_usuario"
+-> editor: git config --global core.editor editor_de_texto. Por exemplo: visualcode, sublime, vim etc...
+
+- Verificar valores
+
+-> username: git config user.name
+-> email: git config user.email
+-> tudo: git config --list
+
+#Criação de alias para comandos do Git
+
+-> git config --global alias.nome_do_alias nome_do_comando
