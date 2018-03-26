@@ -236,3 +236,13 @@ WIP: Work in progress
 - Removendo a tag
 
 > git tag -D numero_da_tag
+
+#Removendo tags e branches no repositório remoto
+
+- Tag
+
+> git push origin:numero_da_tag
+
+- Branch
+
+> git push origin:nome_da_branch
