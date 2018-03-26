@@ -192,3 +192,15 @@ Cria um commit extra para mesclar os commits
 - Rebase
 
 Move o commit para frente e mantém o histórico linear, mas perde a ordem cronológica
+
+#.gitignore
+
+Utilizado para ignorar arquivos durante o versionamento
+
+> *.txt: Ignora todos os arquivos que contenham a extensão .txt
+
+- Ajustando arquivos ignorados aopos adicionar o .gitignore
+
+> git rm -r --cached .
+> git addd .
+> git commit -am "mensagem"
