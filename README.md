@@ -223,3 +223,16 @@ WIP: Work in progress
 
 > git stash list
 > git stash clear
+
+#Publicando tags e branches no repositório remoto
+
+> git tag -A numero_da_versao -m "mensagem"
+
+- Subindo a tag
+
+> git push origin master --tags
+> git tag
+
+- Removendo a tag
+
+> git tag -D numero_da_tag
