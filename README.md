@@ -204,3 +204,22 @@ Utilizado para ignorar arquivos durante o versionamento
 > git rm -r --cached .
 > git addd .
 > git commit -am "mensagem"
+
+#Stash
+
+Guarda as alterações que ainda não foram commitadas
+
+WIP: Work in progress
+
+- Armazenando as mudanças
+
+> git stash
+
+- Aplicando as mudanças que foram armazenadas
+
+> git stash apply
+
+- Listando e removendo os stashes
+
+> git stash list
+> git stash clear
