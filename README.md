@@ -161,3 +161,24 @@ Apaga as alterações mas não remove o commit.
 
 > Clone: Utilizado caso o repositório seja da própria pessoa
 > Fork: Para repositórios de terceiros
+
+#Branch
+
+É um ponteiro móvel que leva a um commit. São ramificações que apontam para uma versão anterior.
+
+- Criando uma branch
+
+> git checkout -b nome_da_branch
+> git branch
+
+- Indo para outra banch
+
+> git checkout nome_da_branch
+
+- Removendo uma branch
+
+> git branch -D nome_da_branch
+
+- Publicando branch no repositório remoto
+
+> git push -u origin nome_da_branch
