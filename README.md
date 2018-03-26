@@ -246,3 +246,7 @@ WIP: Work in progress
 - Branch
 
 > git push origin:nome_da_branch
+
+#Links úteis
+
+- https://github.com/github/gitignore
