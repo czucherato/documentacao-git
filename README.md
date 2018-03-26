@@ -182,3 +182,13 @@ Apaga as alterações mas não remove o commit.
 - Publicando branch no repositório remoto
 
 > git push -u origin nome_da_branch
+
+#Unindo Branches
+
+- Merge
+
+Cria um commit extra para mesclar os commits
+
+- Rebase
+
+Move o commit para frente e mantém o histórico linear, mas perde a ordem cronológica
